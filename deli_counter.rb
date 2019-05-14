@@ -2,7 +2,7 @@
 
 def line(array)
   if array == nil
-    puts "The line is currently empty."
+    return "The line is currently empty."
   else 
     array.each do |customer|
       puts customer
