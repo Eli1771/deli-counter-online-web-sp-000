@@ -2,7 +2,7 @@
 
 def line(array)
   if array == nil
-    puts "The line is currently empty."
+    puts "there is nobody in line"
   else 
     print "line is currently: " 
     array.each_with_index do |customer, index|
