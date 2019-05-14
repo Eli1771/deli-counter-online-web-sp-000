@@ -11,4 +11,8 @@ def line(array)
   end
 end 
 
+def take_a_number(line, name)
+    
+end 
+
 katz_deli = []
