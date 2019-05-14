@@ -2,10 +2,16 @@
 
 def line(katz_deli)
   if katz_deli.size > 0 
+    message = "The line is currently: "
+    katz_deli.each_with_index do |customer, index|
+      message.push("#{index + 1}. #{customer} ")
+    
     puts "The line is currently: "
     katz_deli.each_with_index do |customer, index| 
       puts "#{index + 1}. #{customer} "
     end 
+    
+    
   else 
     puts "The line is currently empty."
   end
