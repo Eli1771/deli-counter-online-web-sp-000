@@ -5,13 +5,8 @@ def line(katz_deli)
     message = "The line is currently: "
     katz_deli.each_with_index do |customer, index|
       message.push("#{index + 1}. #{customer} ")
-    
-    puts "The line is currently: "
-    katz_deli.each_with_index do |customer, index| 
-      puts "#{index + 1}. #{customer} "
     end 
-    
-    
+    puts message
   else 
     puts "The line is currently empty."
   end
