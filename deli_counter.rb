@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  if array == nil
+  if array.size == 0 
     puts "there is nobody in line"
   else 
     print "line is currently: " 
