@@ -7,7 +7,7 @@ def line(katz_deli)
       puts "#{index + 1}. #{customer} "
     end 
   else 
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   end
 end 
 
