@@ -2,10 +2,11 @@
 
 def line(array)
   if array == nil
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
-    array.each do |customer|
-      puts customer
+    print "line is currently: " 
+    array.each_with_index do |customer, index|
+      puts "#{index + 1 }. #{customer} "
     end 
   end 
 end 
